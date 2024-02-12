@@ -165,7 +165,7 @@ def monte_carlo(tickers,days_forecast,iterations,start_date,return_type='log', p
     cols = cols[-1:] + cols[:-1]
     y = y[cols]
     simulatedDF.append(y)
-    simulatedDF = pd.concat(simulatedDF)
+    #simulatedDF = pd.concat(simulatedDF)
     return simulatedDF
     
 ticker = 'NVDA'
